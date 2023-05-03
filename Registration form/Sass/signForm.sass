@@ -1,0 +1,103 @@
+.signForm
+  max-width: 430px
+  &__head
+    font-size: 30px
+    font-weight: 500
+    margin-top: 72px
+  &__text
+    font-size: 16px
+    font-weight: 400
+    padding: 22px 0px
+  &__form
+    padding-top: 40px
+  &__button
+    font-size: 17px
+    font-weight: 500
+    color: #FFFFFF
+    background: #FF432A
+    box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.25)
+    border-radius: 32px
+    padding: 12px 44%
+    margin-top: 60px
+  &__subtext
+    font-size: 16px
+    font-weight: 500
+    color: #B5B5B5
+    text-align: center
+    padding: 40px 0px
+  &__icons
+    position: relative
+    width: 200px
+    height: 200px
+    display: flex
+    justify-content: center
+    align-items: center
+    margin: auto
+    padding: 0
+    margin-bottom: 130px
+    &_active
+      li
+        border-radius: 50%
+      .signForm__icon_1
+        transform: rotate(30deg) translateX(0px)
+        img
+          transform: rotate(-30deg) translateX(0px)
+      .signForm__icon_2
+        transform: rotate(150deg) translateX(0px)
+        img
+          transform: rotate(-150deg) translateX(0px)
+      .signForm__icon_3
+        transform: rotate(270deg) translateX(0px)
+        img
+          transform: rotate(-270deg) translateX(0px)
+  &__icon
+    position: absolute
+    left: 0
+    list-style: none
+    max-width: 40px
+    transform-origin: 100px
+    transform: rotate(0deg) translateX(80px)
+  &__toggle
+    position: absolute
+    height: 60px
+    width: 60px
+    background: white
+    border: 2px solid #FF432A
+    border-radius: 50%
+    display: flex
+    justify-content: center
+    align-items: center
+    cursor: pointer
+    z-index: 100
+    font-size: 16px
+    font-weight: 500
+    text-transform: uppercase
+
+.form-label
+  font-size: 13px
+  font-weight: 500
+
+.form-control
+  font-size: 16px
+  border: 0
+  border-bottom: 2px solid #FF432A
+  border-radius: 0
+
+.form-check
+  font-size: 12px
+  font-weight: 300
+
+.colors
+  padding-top: 20px
+  margin: auto
+  max-width: 35%
+  &__image
+    max-width: 40px
+    padding: 0
+    margin: 10px
+    cursor: pointer
+    border-radius: 50%
+    background-color: lightgray
+    &_active
+      border: #FF432A solid 3px
+      border-radius: 50%

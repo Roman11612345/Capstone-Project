@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  transition: 0.5s; }
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #111111;
+  font-weight: 400; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  justify-content: center; }
+
+.btn {
+  padding-bottom: 7px;
+  padding-top: 7px;
+  font-size: 18px;
+  font-weight: 800; }
+
+.signForm {
+  max-width: 430px; }
+  .signForm__head {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 72px; }
+  .signForm__text {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 22px 0px; }
+  .signForm__form {
+    padding-top: 40px; }
+  .signForm__button {
+    font-size: 17px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background: #FF432A;
+    box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+    padding: 12px 44%;
+    margin-top: 60px; }
+  .signForm__subtext {
+    font-size: 16px;
+    font-weight: 500;
+    color: #B5B5B5;
+    text-align: center;
+    padding: 40px 0px; }
+  .signForm__icons {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0;
+    margin-bottom: 130px; }
+    .signForm__icons_active li {
+      border-radius: 50%; }
+    .signForm__icons_active .signForm__icon_1 {
+      transform: rotate(30deg) translateX(0px); }
+      .signForm__icons_active .signForm__icon_1 img {
+        transform: rotate(-30deg) translateX(0px); }
+    .signForm__icons_active .signForm__icon_2 {
+      transform: rotate(150deg) translateX(0px); }
+      .signForm__icons_active .signForm__icon_2 img {
+        transform: rotate(-150deg) translateX(0px); }
+    .signForm__icons_active .signForm__icon_3 {
+      transform: rotate(270deg) translateX(0px); }
+      .signForm__icons_active .signForm__icon_3 img {
+        transform: rotate(-270deg) translateX(0px); }
+  .signForm__icon {
+    position: absolute;
+    left: 0;
+    list-style: none;
+    max-width: 40px;
+    transform-origin: 100px;
+    transform: rotate(0deg) translateX(80px); }
+  .signForm__toggle {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    background: white;
+    border: 2px solid #FF432A;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 100;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase; }
+
+.form-label {
+  font-size: 13px;
+  font-weight: 500; }
+
+.form-control {
+  font-size: 16px;
+  border: 0;
+  border-bottom: 2px solid #FF432A;
+  border-radius: 0; }
+
+.form-check {
+  font-size: 12px;
+  font-weight: 300; }
+
+.colors {
+  padding-top: 20px;
+  margin: auto;
+  max-width: 35%; }
+  .colors__image {
+    max-width: 40px;
+    padding: 0;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: lightgray; }
+    .colors__image_active {
+      border: #FF432A solid 3px;
+      border-radius: 50%; }
+
+/*# sourceMappingURL=style.css.map */
